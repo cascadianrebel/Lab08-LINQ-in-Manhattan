@@ -26,7 +26,7 @@ namespace Lab08_LINQ_in_Manhattan
                                    where n.Properties.Neighborhood != ""
                                    select n;
             
-            //distinctNeighborhoods : all the neighborhoods excluding duplicates
+            //distinctNeighborhoods : all the neighborhoods excluding duplicates (this query uses Lambda expressions)
             var distinctNeighborhoods = allNeighborhoods.GroupBy(x => x.Properties.Neighborhood)
                                                         .Select(n => n.First());
 
