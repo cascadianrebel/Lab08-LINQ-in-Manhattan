@@ -15,7 +15,9 @@ Rewrite at least one of these questions only using a LINQ query (without lambda 
 
 ## Getting Started
 Visual Studio 2017
-xunit testing. 
+1. System.IO
+2. Newtonsoft.Json
+3. xunit testing. 
 
 ## Resources
 Microsoft Documentation 
