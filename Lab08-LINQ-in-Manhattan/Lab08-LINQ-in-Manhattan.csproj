@@ -6,4 +6,8 @@
     <RootNamespace>Lab08_LINQ_in_Manhattan</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+  </ItemGroup>
+
 </Project>
